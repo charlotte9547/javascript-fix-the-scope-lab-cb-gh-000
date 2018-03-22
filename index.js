@@ -20,10 +20,8 @@ const two = 2
   
 }
 
-var funkyFunction = function() {
-  return function() {
+function() {
     return "FUNKY!"
-  }
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
